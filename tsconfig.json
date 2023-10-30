@@ -1,0 +1,25 @@
+{
+    "ts-node": {
+        "require": [
+            "tsconfig-paths/register"
+        ]
+    },
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "rootDir": ".",
+        "outDir": "build",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "paths": {
+            "root/*": [
+                "./*"
+            ],
+            "_Base/*": [
+                "./Modules/_Base/*"
+            ],
+        }
+    },
+}

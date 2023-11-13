@@ -43,4 +43,11 @@ export namespace Database {
         Approved: 1 | 0
         Active: 1 | 0
     }
+
+    export interface Agents {
+        filter: any
+        IdAgents: number
+        AgentName: string
+        Active: 1 | 0
+    }
 }

@@ -30,7 +30,7 @@ export class class_Base_Agents_controller {
     update = async (req: Request, res: Response) => {
         res.json(await BASE_Agents_model.update(parseInt(req.params.IdAgents), req.body))
     }
-
+  
     delete = async (req: Request, res: Response) => {
         res.json(await BASE_Agents_model.delete(parseInt(req.params.IdAgents)))
     }
